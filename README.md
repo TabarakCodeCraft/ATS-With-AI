@@ -11,7 +11,6 @@
 5. 🔗 [Assets](#links)
 6. 🚀 [More](#more)
 
-
 ## <a name="introduction">✨ Introduction</a>
 
 Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
@@ -56,11 +55,13 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 And many more, including code architecture and reusability.
 
+## <a name="links">🔗 Assets</a>
+
+[![Deployed on Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C58E?style=for-the-badge&logo=netlify)](https://ats-by-tabarak.netlify.app/)
+
 ## <a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
-
-
 
 **Cloning the Repository**
 
