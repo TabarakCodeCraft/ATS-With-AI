@@ -1,12 +1,13 @@
-[[redirects]]
-from = "/*"
-to = "/.netlify/functions/server"
-status = 200
-
 [build]
-publish = "build/client"
-command = "npm run build"
+  command = "npm run build"
+  publish = "build/client"
 
 [functions]
-directory = "build/server"
-node_bundler = "esbuild"
+  directory = "build/server"
+  node_bundler = "esbuild"
+  external_node_modules = ["react-router"]
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/index"
+  status = 200
